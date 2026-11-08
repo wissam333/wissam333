@@ -6,81 +6,130 @@
 
 &nbsp;
 
-[`whoami`](#whoami) · [`kkit`](#kkit) · [`ships`](#ships) · [`stack`](#stack) · [`hire`](#hire)
+[![Home](https://img.shields.io/badge/Home-0d1117?style=flat-square)](#home) [![KKit](https://img.shields.io/badge/KKit-0d1117?style=flat-square)](#kkit) [![Work](https://img.shields.io/badge/Client%20Work-0d1117?style=flat-square)](#work) [![Stack](https://img.shields.io/badge/Stack-0d1117?style=flat-square)](#stack) [![Hire me](https://img.shields.io/badge/Hire_me-00dc82?style=flat-square)](#hire)
 
 </div>
 
-## whoami
+## home
 
-```console
-$ whoami
-Wissam Najjom · full-stack developer · Tartus, Syria
+Full-stack developer from Tartus, Syria. I build web apps in Vue and Nuxt, and when a client wants their product on the desktop or the App Store I wrap the same codebase with Electron or Capacitor instead of starting over. On the backend it's Node, Express and Supabase, and the part I care most about is the unglamorous work: Postgres row-level security, auth architecture, realtime notification pipelines.
 
-$ ls experience
-3+ years    35+ shipped projects    5 trainees mentored
-B.Sc. Informatics Engineering — Tishreen University (2026)
+Three years of client work taught me something simple. A site that loads fast and handles Arabic and English properly beats a beautiful demo:
 
-$ cat focus.txt
-web apps in Vue & Nuxt: SPA, SSR and SSG, one codebase
-for every rendering mode, Arabic (RTL) or English (LTR)
-same codebase shipped to desktop (Electron Forge) or
-mobile (Capacitor) when a client wants more than a site
-backend in Node / Express / Supabase, with the database
-itself secured: hand-written Postgres RLS policies,
-auth architecture, realtime notification pipelines
+- 35+ shipped projects across e-commerce, e-learning, fintech and real estate, for clients in Syria and the Gulf, most reaching 90+ on Lighthouse
+- Performance work that cut average page load by ~30%: code splitting, lazy loading, asset optimization, proper caching
+- One codebase running as SPA, SSR or SSG, in Arabic (RTL) or English (LTR), with i18n done properly instead of bolted on
+- PWA / offline support with Workbox when the client wants an installable app without a store
+- 5 trainees mentored, structured code reviews, B.Sc. in Informatics Engineering, Tishreen University (2026)
+- Daily AI tools: Claude, Gemini, DeepSeek. They speed me up, they don't decide the architecture
 
-$ uptime --performance
-most client sites reach 90+ Lighthouse
-avg page load cut ~30%: code splitting, lazy loading,
-asset optimization, proper caching
+## KKit
 
-$ alias ai
-claude, gemini, deepseek
-# they speed me up, they don't decide the architecture
-```
+**[KKit](https://github.com/wissam333/KKit)** is my flagship open-source project — a free serverless toolbox for the web, no backend, everything peer-to-peer. Installed features:
 
-## kkit
+- [x] P2P video calls and screen sharing (WebRTC)
+- [x] Live whiteboard and file chat (PeerJS)
+- [x] Telegram power tools — GramKit (GramJS)
+- [x] Multiplayer WW1 dogfight game on Canvas
 
-My flagship open-source project — the toolbox itself answers:
+Installable as a PWA, in Arabic and English, hosted on a Cloudflare Worker so it costs nothing to run.
 
-```console
-$ kkit --info
-A free serverless toolbox for the web.
-No backend, no cost, everything runs peer-to-peer.
+<div align="center">
 
-$ kkit list-tools
-1  video-call     P2P video calls, screen sharing (WebRTC)
-2  whiteboard     live whiteboard and file chat (PeerJS)
-3  gramkit        Telegram power tools (GramJS)
-4  dogfight       multiplayer WW1 dogfight game on Canvas
+`Nuxt 3` `Vue 3` `WebRTC` `PeerJS` `GramJS` `Canvas` &nbsp;→&nbsp;
+[![Open KKit](https://img.shields.io/badge/Open_KKit-0d1117?style=flat-square)](https://github.com/wissam333/KKit) [![Live demo](https://img.shields.io/badge/Live_Demo-00dc82?style=flat-square)](https://kkit.wissam-n-najjom.workers.dev/)
 
-$ kkit flags
---pwa       installable, offline-ready (Workbox)
---i18n      Arabic + English
---host      Cloudflare Worker: costs nothing to run
---built     Nuxt 3 · Vue 3 · WebRTC · PeerJS · GramJS
+</div>
 
-$ kkit --open
-repo: https://github.com/wissam333/KKit
-live: https://kkit.wissam-n-najjom.workers.dev/
-```
+## work
 
-## ships
+Client work, the kind I got paid for. Click a project to open its screen:
 
-Client work, the kind I got paid for:
+<details>
+<summary><b>Hamasat Perfumes</b> · online perfume store</summary>
 
-| Project | What it is | Link |
-| --- | --- | --- |
-| **Hamasat Perfumes** | Online perfume store | [hamasatperfumes.com](https://hamasatperfumes.com/) |
-| **Nerva Online** | Marketing agency, SSR with Core Web Vitals care | [nerva-online.com](https://nerva-online.com/) |
-| **Ask Med** | Medical platform: doctor directory, appointments | [ask-med.net](https://ask-med.net/) |
-| **Triathlon UAE** | Sports portal, multilingual | [triathlonuae.net](https://triathlonuae.net/) |
-| **UAE Archery Federation** | Federation site | [uaearchery.net](https://uaearchery.net/) |
-| **True Future** | Real estate | [truefre.net](https://truefre.net/) |
-| **Massar School** | School management system | [schooltec.org](https://schooltec.org/) |
-| **Emarati Magazine** | E-magazine | [emaratimagazine.com](https://emaratimagazine.com/) |
+&nbsp;
+
+E-commerce storefront for a Syrian perfume house.
+
+**Live:** [hamasatperfumes.com](https://hamasatperfumes.com/)
+</details>
+
+<details>
+<summary><b>Nerva Online</b> · marketing agency</summary>
+
+&nbsp;
+
+Agency site built with SSR, tuned for Core Web Vitals.
+
+**Live:** [nerva-online.com](https://nerva-online.com/)
+</details>
+
+<details>
+<summary><b>Ask Med</b> · medical platform</summary>
+
+&nbsp;
+
+Doctor directory with appointment booking.
+
+**Live:** [ask-med.net](https://ask-med.net/)
+</details>
+
+<details>
+<summary><b>Triathlon UAE</b> · sports portal</summary>
+
+&nbsp;
+
+Multilingual portal for a UAE triathlon federation.
+
+**Live:** [triathlonuae.net](https://triathlonuae.net/)
+</details>
+
+<details>
+<summary><b>UAE Archery Federation</b> · federation site</summary>
+
+&nbsp;
+
+Site for the national archery federation.
+
+**Live:** [uaearchery.net](https://uaearchery.net/)
+</details>
+
+<details>
+<summary><b>True Future</b> · real estate</summary>
+
+&nbsp;
+
+Real estate company site.
+
+**Live:** [truefre.net](https://truefre.net/)
+</details>
+
+<details>
+<summary><b>Massar School</b> · school management system</summary>
+
+&nbsp;
+
+School management and education platform.
+
+**Live:** [schooltec.org](https://schooltec.org/)
+</details>
+
+<details>
+<summary><b>Emarati Magazine</b> · e-magazine</summary>
+
+&nbsp;
+
+News and magazine publication.
+
+**Live:** [emaratimagazine.com](https://emaratimagazine.com/)
+</details>
+
+<div align="center">
 
 More on my [portfolio](https://wissam-najjom.vercel.app/).
+
+</div>
 
 ## stack
 
@@ -109,24 +158,14 @@ More on my [portfolio](https://wissam-najjom.vercel.app/).
 
 ## hire
 
-```console
-$ hire --requirements
-role:    full-stack / Nuxt
-mode:    full-time or freelance
-bonus:   a web product that must be fast and secure,
-         speak Arabic and English, or become a
-         desktop / mobile app — that's my kind of work
-
-$ contact --fast
-email:     wissam.n.najjom@gmail.com   ← fastest
-linkedin:  /in/wissam-najjom-09ba06171
-web:       wissam-najjom.vercel.app
-```
+I'm open to full-stack / Nuxt roles and freelance projects. If you have a web product that needs to be fast and secure, that speaks Arabic and English, or that needs to become a desktop or mobile app, that's exactly the kind of work I like.
 
 <div align="center">
 
-**[Email](mailto:wissam.n.najjom@gmail.com) · [LinkedIn](https://www.linkedin.com/in/wissam-najjom-09ba06171) · [Portfolio](https://wissam-najjom.vercel.app/)**
+[![Email me](https://img.shields.io/badge/Email_me-00dc82?style=flat-square)](mailto:wissam.n.najjom@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square)](https://www.linkedin.com/in/wissam-najjom-09ba06171)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square)](https://wissam-najjom.vercel.app/)
 
-<sub>Last updated November 2026</sub>
+<sub>status: open to offers · built by hand in Tartus, Syria · last updated November 2026</sub>
 
 </div>
