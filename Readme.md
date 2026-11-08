@@ -6,47 +6,71 @@
 
 </div>
 
-## About
+Full-stack developer from Tartus, Syria. I build web apps in Vue and Nuxt, and when a client wants their product on the desktop or the App Store I wrap the same codebase with Electron or Capacitor instead of starting over. On the backend it's Node, Express and Supabase, and the part I care most about is the unglamorous work: Postgres row-level security, auth architecture, realtime notification pipelines.
 
-I'm Wissam, a full-stack developer from Tartus, Syria. My strongest side is the front end — Vue and Nuxt in every rendering mode (SPA, SSR, SSG) — but I design the backend end-to-end too: Node/Express services and Supabase, with the database itself secured in Postgres row-level security rather than trusting the API layer alone.
+Three years of client work taught me something simple. A site that loads fast and handles Arabic and English properly is worth more than a beautiful demo:
 
-Over 3+ years I've shipped 35+ projects for clients in Syria and the Gulf, across e-commerce, e-learning, fintech and real estate. Most of them reach 90+ on Lighthouse.
-
-What that looks like day to day:
-
-- Front end: Vue 3 / Nuxt 3, TypeScript, Tailwind or Vuetify/PrimeVue, Pinia, i18n with Arabic (RTL) and English (LTR), PWA with Workbox
-- Backend & data: Node / Express, Supabase (Postgres, Auth, Realtime, Storage), MongoDB, hand-written RLS policies, realtime notification pipelines
-- Beyond the browser: the same web app shipped as a desktop app (Electron Forge) or a mobile app (Capacitor)
-- Performance: code splitting, lazy loading and asset work that cut average page load by roughly 30%
-- Mentored 5 trainees, ran structured code reviews · B.Sc. Informatics Engineering, Tishreen University (2026)
-- Daily AI tools (Claude, Gemini, DeepSeek) to move faster without lowering the bar
+- 35+ shipped projects across e-commerce, e-learning, fintech and real estate, for clients in Syria and the Gulf, most reaching 90+ on Lighthouse
+- Performance work that cut average page load by ~30%: code splitting, lazy loading, asset optimization, proper caching
+- One codebase running as SPA, SSR or SSG, in Arabic (RTL) or English (LTR), with i18n done properly instead of bolted on
+- PWA / offline support with Workbox when the client wants an installable app without a store
+- 5 trainees mentored, structured code reviews, B.Sc. in Informatics Engineering, Tishreen University (2026)
+- Daily AI tools: Claude, Gemini, DeepSeek. They speed me up, they don't decide the architecture
 
 ## Featured work
 
-[KKit](https://github.com/wissam333/KKit) — a free, serverless toolbox for the web: peer-to-peer video calls, screen sharing, a live whiteboard and file chat over WebRTC; Telegram power tools (GramKit); and a multiplayer WW1 dogfight game on Canvas. Zero backend cost, installable as a PWA, in Arabic and English.
+### [KKit](https://github.com/wissam333/KKit) · open source
 
-`Nuxt 3` `Vue 3` `WebRTC` `PeerJS` `GramJS` `PWA` — [live demo](https://kkit.wissam-n-najjom.workers.dev/)
+A free serverless toolbox for the web. Everything in it works without a backend:
 
-Selected client work:
+- Video calls, screen sharing, live whiteboard and file chat over WebRTC
+- GramKit: Telegram power tools for people who live in that app
+- A multiplayer WW1 dogfight game on Canvas, because every toolbox needs one
+
+Installable as a PWA, in Arabic and English, hosted on a Cloudflare Worker so it costs nothing to run.
+
+<div align="center">
+
+`Nuxt 3` `Vue 3` `WebRTC` `PeerJS` `GramJS` `Canvas` &nbsp;→&nbsp; [Repository](https://github.com/wissam333/KKit) · [Live demo](https://kkit.wissam-n-najjom.workers.dev/)
+
+</div>
+
+### Client projects
 
 | Project | What it is | Link |
 | --- | --- | --- |
-| Hamasat Perfumes | E-commerce | [hamasatperfumes.com](https://hamasatperfumes.com/) |
-| Nerva Online | Marketing agency (SSR, Core Web Vitals) | [nerva-online.com](https://nerva-online.com/) |
-| Ask Med | Medical platform: doctor directory and appointments | [ask-med.net](https://ask-med.net/) |
-| Triathlon UAE | Sports portal, multilingual | [triathlonuae.net](https://triathlonuae.net/) |
-| UAE Archery Federation | Sports federation | [uaearchery.net](https://uaearchery.net/) |
-| True Future | Real estate | [truefre.net](https://truefre.net/) |
-| Massar School | School management / education | [schooltec.org](https://schooltec.org/) |
-| Emarati Magazine | News | [emaratimagazine.com](https://emaratimagazine.com/) |
+| **Hamasat Perfumes** | Online perfume store | [hamasatperfumes.com](https://hamasatperfumes.com/) |
+| **Nerva Online** | Marketing agency, SSR with Core Web Vitals care | [nerva-online.com](https://nerva-online.com/) |
+| **Ask Med** | Medical platform: doctor directory, appointments | [ask-med.net](https://ask-med.net/) |
+| **Triathlon UAE** | Sports portal, multilingual | [triathlonuae.net](https://triathlonuae.net/) |
+| **UAE Archery Federation** | Federation site | [uaearchery.net](https://uaearchery.net/) |
+| **True Future** | Real estate | [truefre.net](https://truefre.net/) |
+| **Massar School** | School management system | [schooltec.org](https://schooltec.org/) |
+| **Emarati Magazine** | E-magazine | [emaratimagazine.com](https://emaratimagazine.com/) |
 
 More on my [portfolio](https://wissam-najjom.vercel.app/).
 
 ## Stack
 
-Vue · Nuxt · TypeScript · JavaScript · Node / Express · Supabase (Postgres, Auth, Realtime, Storage, RLS) · PostgreSQL · MongoDB · Electron Forge · Capacitor · Tailwind · Sass · Bootstrap · Vuetify · PrimeVue · Pinia · @nuxtjs/i18n · PWA / Workbox · Git · GitHub · Figma · Vercel · Netlify
+<div align="center">
 
-## Stats
+**Frontend:**
+
+![Frontend](https://skillicons.dev/icons?i=vue,nuxt,js,ts,html,css,sass,tailwind,bootstrap&theme=dark)
+
+**Backend & cross-platform:**
+
+![Backend](https://skillicons.dev/icons?i=electron,nodejs,express,mongodb,supabase,postgres&theme=dark)
+
+**Tools:**
+
+![Tools](https://skillicons.dev/icons?i=git,github,npm,vercel,netlify,figma,vscode&theme=dark)
+
+<sub>Also: Vuetify · PrimeVue · Pinia · @nuxtjs/i18n · PWA / Workbox · Capacitor · Supabase Auth / Realtime / Storage / RLS</sub>
+
+</div>
+
+## Numbers
 
 <div align="center">
 
@@ -57,8 +81,12 @@ Vue · Nuxt · TypeScript · JavaScript · Node / Express · Supabase (Postgres,
 
 ## Contact
 
-Open to full-stack / Nuxt roles and freelance projects — especially multilingual apps (Arabic/English), or a web product that needs to become a desktop or mobile app. Email is the fastest way to reach me.
+I'm open to full-stack / Nuxt roles and freelance projects. If you have a web product that needs to be fast and secure, that speaks Arabic and English, or that needs to become a desktop or mobile app, that's exactly the kind of work I like.
 
-- Email: [wissam.n.najjom@gmail.com](mailto:wissam.n.najjom@gmail.com)
-- Portfolio: [wissam-najjom.vercel.app](https://wissam-najjom.vercel.app/)
-- LinkedIn: [Wissam Najjom](https://www.linkedin.com/in/wissam-najjom-09ba06171)
+<div align="center">
+
+**[Email](mailto:wissam.n.najjom@gmail.com) · [LinkedIn](https://www.linkedin.com/in/wissam-najjom-09ba06171) · [Portfolio](https://wissam-najjom.vercel.app/)**
+
+<sub>Last updated November 2026</sub>
+
+</div>
