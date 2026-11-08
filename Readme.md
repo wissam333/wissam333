@@ -12,32 +12,58 @@
 
 ## whoami
 
-Full-stack developer from Tartus, Syria. I build web apps in Vue and Nuxt, and when a client wants their product on the desktop or the App Store I wrap the same codebase with Electron or Capacitor instead of starting over. On the backend it's Node, Express and Supabase, and the part I care most about is the unglamorous work: Postgres row-level security, auth architecture, realtime notification pipelines.
+```console
+$ whoami
+Wissam Najjom · full-stack developer · Tartus, Syria
 
-Three years of client work taught me something simple. A site that loads fast and handles Arabic and English properly beats a beautiful demo:
+$ ls experience
+3+ years    35+ shipped projects    5 trainees mentored
+B.Sc. Informatics Engineering — Tishreen University (2026)
 
-- 35+ shipped projects across e-commerce, e-learning, fintech and real estate, for clients in Syria and the Gulf, most reaching 90+ on Lighthouse
-- Performance work that cut average page load by ~30%: code splitting, lazy loading, asset optimization, proper caching
-- One codebase running as SPA, SSR or SSG, in Arabic (RTL) or English (LTR), with i18n done properly instead of bolted on
-- PWA / offline support with Workbox when the client wants an installable app without a store
-- 5 trainees mentored, structured code reviews, B.Sc. in Informatics Engineering, Tishreen University (2026)
-- Daily AI tools: Claude, Gemini, DeepSeek. They speed me up, they don't decide the architecture
+$ cat focus.txt
+web apps in Vue & Nuxt: SPA, SSR and SSG, one codebase
+for every rendering mode, Arabic (RTL) or English (LTR)
+same codebase shipped to desktop (Electron Forge) or
+mobile (Capacitor) when a client wants more than a site
+backend in Node / Express / Supabase, with the database
+itself secured: hand-written Postgres RLS policies,
+auth architecture, realtime notification pipelines
+
+$ uptime --performance
+most client sites reach 90+ Lighthouse
+avg page load cut ~30%: code splitting, lazy loading,
+asset optimization, proper caching
+
+$ alias ai
+claude, gemini, deepseek
+# they speed me up, they don't decide the architecture
+```
 
 ## kkit
 
-My flagship open-source project. A free serverless toolbox for the web — everything in it works without a backend:
+My flagship open-source project — the toolbox itself answers:
 
-- Video calls, screen sharing, live whiteboard and file chat over WebRTC
-- GramKit: Telegram power tools for people who live in that app
-- A multiplayer WW1 dogfight game on Canvas, because every toolbox needs one
+```console
+$ kkit --info
+A free serverless toolbox for the web.
+No backend, no cost, everything runs peer-to-peer.
 
-Installable as a PWA, in Arabic and English, hosted on a Cloudflare Worker so it costs nothing to run.
+$ kkit list-tools
+1  video-call     P2P video calls, screen sharing (WebRTC)
+2  whiteboard     live whiteboard and file chat (PeerJS)
+3  gramkit        Telegram power tools (GramJS)
+4  dogfight       multiplayer WW1 dogfight game on Canvas
 
-<div align="center">
+$ kkit flags
+--pwa       installable, offline-ready (Workbox)
+--i18n      Arabic + English
+--host      Cloudflare Worker: costs nothing to run
+--built     Nuxt 3 · Vue 3 · WebRTC · PeerJS · GramJS
 
-`Nuxt 3` `Vue 3` `WebRTC` `PeerJS` `GramJS` `Canvas` &nbsp;→&nbsp; [Repository](https://github.com/wissam333/KKit) · [Live demo](https://kkit.wissam-n-najjom.workers.dev/)
-
-</div>
+$ kkit --open
+repo: https://github.com/wissam333/KKit
+live: https://kkit.wissam-n-najjom.workers.dev/
+```
 
 ## ships
 
@@ -83,7 +109,19 @@ More on my [portfolio](https://wissam-najjom.vercel.app/).
 
 ## hire
 
-I'm open to full-stack / Nuxt roles and freelance projects. If you have a web product that needs to be fast and secure, that speaks Arabic and English, or that needs to become a desktop or mobile app, that's exactly the kind of work I like.
+```console
+$ hire --requirements
+role:    full-stack / Nuxt
+mode:    full-time or freelance
+bonus:   a web product that must be fast and secure,
+         speak Arabic and English, or become a
+         desktop / mobile app — that's my kind of work
+
+$ contact --fast
+email:     wissam.n.najjom@gmail.com   ← fastest
+linkedin:  /in/wissam-najjom-09ba06171
+web:       wissam-najjom.vercel.app
+```
 
 <div align="center">
 
