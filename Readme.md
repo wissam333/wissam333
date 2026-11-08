@@ -4,11 +4,17 @@
 
 **مطوّر برمجيات Full-Stack من طرطوس، سوريا. أبني واجهات سريعة وأنظمة خلفية آمنة وتطبيقات متعددة المنصات.**
 
+&nbsp;
+
+[`whoami`](#whoami) · [`kkit`](#kkit) · [`ships`](#ships) · [`stack`](#stack) · [`hire`](#hire)
+
 </div>
+
+## whoami
 
 Full-stack developer from Tartus, Syria. I build web apps in Vue and Nuxt, and when a client wants their product on the desktop or the App Store I wrap the same codebase with Electron or Capacitor instead of starting over. On the backend it's Node, Express and Supabase, and the part I care most about is the unglamorous work: Postgres row-level security, auth architecture, realtime notification pipelines.
 
-Three years of client work taught me something simple. A site that loads fast and handles Arabic and English properly is worth more than a beautiful demo:
+Three years of client work taught me something simple. A site that loads fast and handles Arabic and English properly beats a beautiful demo:
 
 - 35+ shipped projects across e-commerce, e-learning, fintech and real estate, for clients in Syria and the Gulf, most reaching 90+ on Lighthouse
 - Performance work that cut average page load by ~30%: code splitting, lazy loading, asset optimization, proper caching
@@ -17,11 +23,9 @@ Three years of client work taught me something simple. A site that loads fast an
 - 5 trainees mentored, structured code reviews, B.Sc. in Informatics Engineering, Tishreen University (2026)
 - Daily AI tools: Claude, Gemini, DeepSeek. They speed me up, they don't decide the architecture
 
-## Featured work
+## kkit
 
-### [KKit](https://github.com/wissam333/KKit) · open source
-
-A free serverless toolbox for the web. Everything in it works without a backend:
+My flagship open-source project. A free serverless toolbox for the web — everything in it works without a backend:
 
 - Video calls, screen sharing, live whiteboard and file chat over WebRTC
 - GramKit: Telegram power tools for people who live in that app
@@ -35,7 +39,9 @@ Installable as a PWA, in Arabic and English, hosted on a Cloudflare Worker so it
 
 </div>
 
-### Client projects
+## ships
+
+Client work, the kind I got paid for:
 
 | Project | What it is | Link |
 | --- | --- | --- |
@@ -50,19 +56,13 @@ Installable as a PWA, in Arabic and English, hosted on a Cloudflare Worker so it
 
 More on my [portfolio](https://wissam-najjom.vercel.app/).
 
-## Stack
+## stack
 
 <div align="center">
 
-**Frontend:**
-
 ![Frontend](https://skillicons.dev/icons?i=vue,nuxt,js,ts,html,css,sass,tailwind,bootstrap&theme=dark)
 
-**Backend & cross-platform:**
-
 ![Backend](https://skillicons.dev/icons?i=electron,nodejs,express,mongodb,supabase,postgres&theme=dark)
-
-**Tools:**
 
 ![Tools](https://skillicons.dev/icons?i=git,github,npm,vercel,netlify,figma,vscode&theme=dark)
 
@@ -70,16 +70,18 @@ More on my [portfolio](https://wissam-najjom.vercel.app/).
 
 </div>
 
-## Numbers
+## stats
 
 <div align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=wissam333&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00dc82&icon_color=00dc82&count_private=true" alt="GitHub stats" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wissam333&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00dc82&langs_count=6" alt="Top languages" />
 
+<img src="https://raw.githubusercontent.com/wissam333/wissam333/output/github-snake-dark.svg" alt="Contribution snake" />
+
 </div>
 
-## Contact
+## hire
 
 I'm open to full-stack / Nuxt roles and freelance projects. If you have a web product that needs to be fast and secure, that speaks Arabic and English, or that needs to become a desktop or mobile app, that's exactly the kind of work I like.
 
